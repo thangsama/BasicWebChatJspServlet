@@ -44,7 +44,7 @@
 	<td colspan ="2"> <input type = "submit" value ="Submit" />
    <a href = "${pageContext.request.contextPath}/createUserAccount">Register</a>
    <a href = "${pageContext.request.contextPath}/">Cancel</a>
-   <a href = "${pageContext.request.contextPath}/chatBox">Chat</a>
+   
    </td>
    </tr>
    </table>
