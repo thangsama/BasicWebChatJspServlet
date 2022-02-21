@@ -2,8 +2,13 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	id="WebApp_ID" version="3.0">
+<<<<<<< HEAD
   <display-name>ChatWeb</display-name>
  <filter-mapping>
+=======
+	<display-name>Simplewbapp</display-name>
+	<filter-mapping>
+>>>>>>> 3bfce8a5c839f280e55a409e51689ebfc9c5f900
 		<filter-name>jdbcFilter</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
@@ -14,7 +19,11 @@
 	</filter-mapping>
 
 	<welcome-file-list>
+<<<<<<< HEAD
 		<welcome-file>login</welcome-file>
+=======
+		<welcome-file>home</welcome-file>
+>>>>>>> 3bfce8a5c839f280e55a409e51689ebfc9c5f900
 
 		<welcome-file>index.html</welcome-file>
 

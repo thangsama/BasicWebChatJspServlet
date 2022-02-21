@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
         
     <wb-module deploy-name="ChatWeb">
                 
@@ -11,4 +12,12 @@
             
     </wb-module>
     
+=======
+    <wb-module deploy-name="Simplewbapp">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="Simplewbapp"/>
+        <property name="java-output-path" value="/Simplewbapp/build/classes"/>
+    </wb-module>
+>>>>>>> 3bfce8a5c839f280e55a409e51689ebfc9c5f900
 </project-modules>
